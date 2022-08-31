@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.24.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-UGLIFYJS-1727251:
+    - express-cart@1.1.17 > gulp-less@4.0.1 > accord@0.29.0 > uglify-js@2.8.2:
+        reason: None Given
+        expires: 2022-09-30T17:26:48.317Z
+        created: 2022-08-31T17:26:48.320Z
+patch: {}
